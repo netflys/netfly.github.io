@@ -24,3 +24,53 @@ body, html {
   padding: 0px;
   height: 100%;
 }
+.banner {
+  padding: 30px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  text-align: center;
+  background-image: url("https://image.freepik.com/free-vector/white-3d-modern-background-design_53876-88246.jpg");
+}
+.banner > h4 {
+  line-height: 35px;
+}
+.get-started {
+  margin-top: 45px;
+  width: 200px;
+}
+.container1 {
+  padding: 20px;
+  text-align: center;
+}
+.wrapper1 {
+  padding: 30px;
+}
+.learn-more {
+  width: 160px;
+  margin-top: 19px;
+}
+.f1 {
+  font-size: 28px;
+  background: tomato;
+  border-radius: 100rem;
+  width: 70px;
+  height: 70px;
+  padding-top: 20px;
+  color: #fff;
+}
+.f11 {
+  margin-top: 8px;
+}
+.wrapper2 {
+  padding: 30px;
+  margin-top: 16px;
+}
+.search-btn {
+  width: 100%;
+  margin-top: 16px;
+}
+.wrapper3 {
+  padding: 30px;
+  margin-top: 16px;
+  text-align: center;
+}
