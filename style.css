@@ -22,7 +22,7 @@ body, html {
   left: 0;
   right: 0;
   padding: 0px;
-  height: 100%;
+  height: auto;
 }
 .banner {
   padding: 30px;
@@ -70,6 +70,14 @@ body, html {
   margin-top: 16px;
 }
 .wrapper3 {
+  padding: 30px;
+  margin-top: 16px;
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  overflow: scroll;
+}
+.wrapper-cp {
   padding: 30px;
   margin-top: 16px;
   text-align: center;
