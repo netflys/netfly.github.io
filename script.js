@@ -32,7 +32,7 @@ function searching(_this) {
   .then(function(response) {
     $("#search-area").show();
     for (var i = 0; i < response.query.search.length; i++) {
-      results += '<tr><th scope="row">'+(i+1)+'</th><td>'+response.query.search[i].title+'</td><td>'+response.query.search[i].snippet+'....<br><a href= "http://en.wikipedia.org/wiki?curid='+response.query.search[i].pageid+'" target="_parent"> Read more </a></td> </tr>'+"<br><br>";
+      results += '<tr><td style="min-width:120px"><h5>'+response.query.search[i].title+'</h5></td><td><h6>'+response.query.search[i].snippet+'....<br><a href= "http://en.wikipedia.org/wiki?curid='+response.query.search[i].pageid+'" target="_parent"> Read more </a></h6></td> </tr>'+"<br><br>";
     }
     document.getElementById('results').innerHTML = results;
     console.log(response);

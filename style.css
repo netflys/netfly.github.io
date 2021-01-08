@@ -74,11 +74,15 @@ body, html {
   margin-top: 16px;
   text-align: center;
   width: 100%;
-  height: 400px;
+  height: auto;
   overflow: scroll;
 }
 .wrapper-cp {
   padding: 30px;
   margin-top: 16px;
   text-align: center;
+}
+td h5, td h6 {
+  line-height: 33px;
+  margin-right: 10px;
 }
