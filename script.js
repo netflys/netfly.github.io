@@ -3,6 +3,6 @@
 $(document).ready(function(w) {
   $("#get-started").click(function (_this) {
     _this = this;
-    window.location.href = "../get-started/index.html";
+    window.location.href = "../get-started";
   });
 });
