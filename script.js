@@ -7,6 +7,7 @@ $(document).ready(function(w) {
   });
   $("#search-area").hide();
 });
+
 function searching(_this) {
   _this = this;
   let results = "";
